@@ -1,0 +1,42 @@
+# Node modules (will be installed in container)
+node_modules/
+
+# Git files
+.git/
+.gitignore
+
+# Environment files (mounted as volume)
+.env
+
+# Private key (mounted as volume)
+private_key.json
+
+# Data directory (mounted as volume)
+data/
+
+# Documentation
+README.md
+AGENTS.md
+*.md
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Development files
+.editorconfig
